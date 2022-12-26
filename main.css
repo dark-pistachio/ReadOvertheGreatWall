@@ -1,0 +1,248 @@
+@charset "UTF-8";
+
+
+
+*{
+    margin:0;
+    padding: 0;
+}
+
+.wrapper {
+    font-family: 'Raleway', sans-serif;
+/*    font-weight: bold;*/
+/*    text-transform: lowercase;*/
+    margin: 0 auto;
+    width: 100%;
+    color: #404E66;
+    /* background-color: #e9e9e9; ; */
+}
+/* div iframe {
+    width: 100%;
+    height: 1200px;
+    /* margin: auto; */
+
+p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 14pt;
+}
+
+.topbar {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    position:static;
+    height: 10%;
+    background-color: #fff;
+    align-content: center;
+    z-index: 100;
+}
+
+.home {
+    grid-column: 1/2;
+    text-align: center;
+    align-items: center;
+    padding-top: 34px;
+    width: 600px;
+}
+
+.home a {
+    text-decoration: none;
+    color: #404E66;
+    font-size: 180%;
+    text-align: left;
+    display:block;
+    margin-left: 100px;
+}
+
+
+.topbar ul {
+    grid-column: 4/5;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    list-style-type: none;
+    /* margin: 0 12% 0 0; */
+}
+
+.topbar li {
+    padding: 40px 40px 10px;
+    text-align: center;
+    margin-right: 20px;
+}
+
+.topbar li a {
+    text-decoration: none;
+    color: #404E66;
+    font-size: 16px;
+    font-weight:600;
+}
+
+
+.topbar a:hover{
+    color: #6CB1E0;
+}
+
+.topbar .active {
+    color: #6CB1E0;
+}
+
+.brandlogo {
+    height: 25px;
+    /* width: 45px; */
+}
+
+.frame {
+    width: 90%;
+    margin:80px auto;
+    align-content: center;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.input{
+    display: grid;
+    grid-column: 1/2;
+}
+.input header{
+    padding: 15px 30px;
+    text-align: left;
+    color: #404E66;
+    font-size: 14pt;
+}
+
+.inputbox{
+    border-style: solid;
+    width: 90%;
+    min-width: 360px;
+    height: 80px;
+    border-color: #404e662f;
+    border-width: 2px;
+    background-color: #f3f8ff;
+    border-radius: 20px;
+    margin: 0 30px 20px;
+    padding: 0;
+}
+.inputbox input{
+    border-style: none;
+    width: 94%;
+    height: 60px;
+    background-color: #f3f8ff;
+    border-radius: 13px;
+    margin: 10px auto;
+    font-family: Raleway;
+    color: #404E66;
+    font-size: 14pt;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.output{
+    display: grid;
+    grid-column: 2/2;
+}
+.output header{
+    padding: 15px 30px;
+    text-align: left;
+    color: #404E66;
+    font-size: 14pt;
+}
+
+.outputbox{
+    border-style: solid;
+    width: 90%;
+    min-width: 360px;
+    height: 80px;
+    border-color: #404e662f;
+    border-width: 2px;
+    background-color: #f6f6f6;
+    border-radius: 20px;
+    margin: 0 30px 20px;
+    padding: 0;
+}
+.msg{
+    width: 100%;
+    height: 100%;
+    color: #404E66;
+    font-size: 14pt;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.msg p{
+    /* display: block; */
+    text-align: left;
+    font-family: Raleway;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 29px;
+    padding-bottom: auto;
+}
+.submit{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    /* padding-left: 70%;
+    margin-right: 20px; */
+}
+.submit input{
+    width: 110px;
+    height: 50px;
+    background-color: #f3f8ff;
+    border-style: solid;
+    border-color: #404e662f;
+    border-width: 2px;
+    border-radius: 26px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #404E66;
+    
+}
+.submit #encrypt{
+    display: grid;
+    grid-column: 2/2;
+    margin: 0 30px 0 auto;
+}
+.submit #decrypt{
+    display: grid;
+    grid-column: 1/2;
+    margin: 0 10px 0 auto;
+}
+
+.reference {
+    width: 90%;
+    margin:80px auto;
+    align-content: center;
+    text-align: center;
+    border-style: solid;
+    border-top-color: #404e662f;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+    border-width: 2px;
+    /* padding: 30px; */
+}
+.reference h3{
+    margin: 40px auto;
+    font-size: 15pt;
+    font-weight: 500;
+}
+
+.reference p{
+    margin: 30px auto;
+    font-size: 14pt;
+    color: #404e66c2;
+}
+
+.dictionary{
+    width: 80%;
+    margin: 5% auto;
+}
+.dictionary header{
+    text-align: center;
+    font-size: 11px;
+    color: #6CB1E0;
+}
+.dictionary h3{
+    text-align: center;
+}
+.dictionary .center{
+    text-align: center;
+}
