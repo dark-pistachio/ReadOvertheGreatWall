@@ -1,25 +1,21 @@
 <!doctype html>
-<html>
-    
+<html> 
     <head>
         <title>Read Over the Great Wall</title>
         <link href="main.css" rel="stylesheet" type="text/css">
         <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:900&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway&display=swap" rel="stylesheet"> 
-        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway&display=swap" rel="stylesheet">
     
     </head>
-    
     <body>
-    
    <div class="wrapper"> 
         <div class="topbar">
-            <div class="home"><a>Read Over the Great Wall</a></div>
+            <div class="home"><a href="index.html">Read Over the Great Wall</a></div>
             <ul>
                 <li><a class="active" href="index.html">Translator</a></li>
                 <li><a href="dictionary.html">Dictionary</a></li>
-                <!-- <li><a href="resume.html" target="_blank">About</a></li> -->
-                
                 </ul>
             </div>
      <div class="frame">
@@ -28,7 +24,7 @@
            <h1>Your Text</h1>
             </header>
             <div class="inputbox">
-                    <input type="text" id="fname" name="fname"><br><br>
+            <input type="text" id="fname" name="fname" placeholder="Words to be encrpyted/decrypted...">
                   
             </div>
         </div>
@@ -38,27 +34,24 @@
             </header>
             <div class="outputbox">
                     <div class="msg"></div>
-                
             </div>
-        </div>
-    
+        </div>   
         <div class="submit">
+            <input id="add" type="submit" value="Add to the list">
             <input id="decrypt" type="submit" value="Decrypt">
             <input id="encrypt" type="submit" value="Encrypt">
-            
         </div>
     </div>
     <div class="reference">
         <h3>
-            A list of sensitive words that have been collected so far. 
+            A list of sensitive words that have been collected so far:
         </h3>
         <p>
-            White Paper protest, Tattoo, 
+            White Paper protest, Uyghur, Tattoo, Xinjiang, Guonan, Support HK, 
+    Dictatorship, Winnie the Pooh, Dalai Lama, June 4, independence 
         </p>
     </div>
     </div>
-        
-       
     </body>
     <script src="./index.js"></script>
 </html>
