@@ -86,8 +86,9 @@ p {
 }
 
 .brandlogo {
-    height: 25px;
+    height: 22px;
     /* width: 45px; */
+    margin-right: 13px;
 }
 
 .frame {
